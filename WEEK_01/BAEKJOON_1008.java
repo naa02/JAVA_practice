@@ -11,7 +11,7 @@ public class BAEKJOON_1008 {
         double a = scanner.nextDouble();
         double b = scanner.nextDouble();
 
-        if ((0<a)&&(0<b) && (a<10)&&(b<10)){
+        if (((0<a)&&(0<b)) && ((a<10)&&(b<10))){
             System.out.println(a/b);
         }
         else {
